@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.button{
+    width: 50;
+    height: 50;
+    font-size: 25;
+    margin: 2;
+    cursor: pointer;
+    background:#607D8B;
+    border: none;
+    color: white;
+    border-radius: 50px;
+    
+
+}
+.textview{
+    width: 217;
+    margin: 5;
+    font-size: 25;
+    padding: 5;
+    border: none;
+    color:#607D8B;
+    border-radius: 50px;
+    text-indent: 6%;
+}
+.main{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+.bg{
+    background: linear-gradient( to top ,#333333,#3f51b5);
+    height: 100%;
+
+
+}
+.button:hover{
+    background-color: #333333;
+}
+
+/* ------------darkmode---------- */
+
+* {
+    margin: 0;
+    padding: 0;
+}
+.button1{
+    width: 50;
+    height: 50;
+    font-size: 25;
+    margin: 2;
+    cursor: pointer;
+    background: #333333;
+    border: none;
+    color: #bbbbbb;
+    border-radius: 50px;
+    
+
+}
+.textview1{
+    width: 217;
+    margin: 5;
+    font-size: 25;
+    padding: 5;
+    border: none;
+    color:#bbbbbb;
+    border-radius: 50px;
+    text-indent: 6%;
+    background: #333333;
+}
+.main1{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    
+}
+.bg1{
+    background: linear-gradient( to top ,#333333,#000000);
+    height: 100%;
+
+
+}
+.button1:hover{
+    background-color: #bbbbbb;
+    color: #333333;
+}
+/* darkmode */
+.nav-links{
+    background: none;
+    margin: 0;
+    padding:0;
+    
+}
+.nav-links ul{
+    list-style: none;
+}
+.nav-link ul{
+    list-style: none;
+}
+.nav-links ul li a{
+    margin:0;
+    padding: 0;
+    color: #bbbbbb;
+    font-size: 20px;
+    background: transparent;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    text-decoration: none;
+    transform: translateX(0%) translateY(280%);
+   
+    
+    
+    
+}
+@media(max-width: 700px){
+    .nav-links ul li a{
+        margin:0;
+        padding: 0;
+        position: absolute;
+        left: 40%;
+        transform: translateX(0) translateY(150%);
+        
+    }
+}
+.nav-link ul li a{
+    color: #333333;
+    font-size: 20px;
+
+    background: none;
+    cursor: pointer;
+    position: absolute;
+    top: 10%;
+    left: 46%;
+    text-decoration: none;
+    transform: translateX(0%) translateY(280%);
+    
+
+}
+@media(max-width: 700px){
+    .nav-link ul li a{
+        position: absolute;
+        left: 40%;
+        transform: translateX(0) translateY(150%);
+        
+    }
+}
+
